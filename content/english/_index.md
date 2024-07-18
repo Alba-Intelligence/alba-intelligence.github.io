@@ -19,7 +19,7 @@ features:
       - "Data Acquisition"
       - "Data Engineering"
     button:
-      enable: true
+      enable: false
       label: "Learn more"
       link: "#"
 
