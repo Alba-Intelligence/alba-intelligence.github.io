@@ -56,15 +56,17 @@
     <loc>http://localhost:1313/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/elements/</loc>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/all_elements/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/emmanuel-rialland/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/our_services/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
