@@ -78,11 +78,16 @@ pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-pageRef = "/elements"
+name = "Services"
+pageRef = "/services"
 weight = 2
+
+[[footer]]
+name = "Elements"
+pageRef = "/all_elements"
+weight = 3
 
 [[footer]]
 name = "Privacy Policy"
 pageRef = "/privacy-policy"
-weight = 3
+weight = 4

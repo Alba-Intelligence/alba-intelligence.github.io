@@ -51,6 +51,13 @@
       <description>Emmanuel has a passion for AI, Machine Learning, Data Science, Quantitative Methods.</description>
     </item>
     <item>
+      <title>Our Services</title>
+      <link>http://localhost:1313/our_services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/our_services/</guid>
+      <description>Our Services Solutions Engineering Business Analytics Predictive Modelling Everything we do is solutions-oriented.</description>
+    </item>
+    <item>
       <title>Privacy</title>
       <link>http://localhost:1313/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
