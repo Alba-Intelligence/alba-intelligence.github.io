@@ -1,0 +1,56 @@
+logo_image: /uploads/branding/sunrise-AI.svg
+logo_subtitle : Alba Intelligence
+mobile_view_width: 1000
+menuitems:
+  - title: Home
+    link: /
+
+  - title: Services
+    link: /services/
+    items:
+      - title: Solutions Engineering
+        link: /services/solutions_engineering/
+
+      - title: Business Intelligence & Analytics
+        link: /services/business_analytics/
+
+      - title: Predictive Modelling
+        link: /services/predictive_modelling/
+
+      - title: Due Diligence
+        link: /services/due_diligence/
+
+      - title: Training & Education
+        link: /services/training_education/
+
+  - title: Industries
+    link: /industries/
+    items:
+      - title: Banking & Finance
+        link: /industries/banking_finance/
+
+      - title: Insurance
+        link: /industries/insurance/
+
+      - title: Logistics
+        link: /industries/logistics/
+
+      - title: Manufacturing
+        link: /industries/manufacturing/
+
+      - title: Retail & ConsumerGoods
+        link: /industries/retail/
+
+  - title: The Team & Careers
+    link: /team/
+
+  # - title: Docs
+  #   link: /docs/
+
+  # - title: Blog
+  #   link: /blog/
+
+cta:
+  active: true
+  title: Contact Us!
+  link: /contact/

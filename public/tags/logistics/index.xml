@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logistics on </title>
+    <link>http://localhost:1313/tags/logistics/</link>
+    <description>Recent content in Logistics on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logistics</title>
+      <link>http://localhost:1313/industries/logistics/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/logistics/</guid>
+      <description>Logistics AI technologies in logistics are not a luxury but a necessity for organizations to remain competitive in terms of service excellence and pricing. According to Forbes research, 65% of the industry leaders believe that logistics and transportation, have entered an era of profound transformation. Key application domains for AI in logistics include demand forecasting, warehousing, fleet &amp;amp; route optimization and predictive maintenance.&#xA;Freight delivery &amp;amp; warehousing Predictive maintenance (e.</description>
+    </item>
+  </channel>
+</rss>

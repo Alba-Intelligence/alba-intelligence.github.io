@@ -1,0 +1,51 @@
+- name: Emmanuel Rialland
+  function: Managing Director
+  image: /uploads/gallery/Manny.jpg
+  description: |
+    Emmanuel has a passion for AI, Machine Learning, Data Science, Quantitative Methods.
+    He has applied his expertise to multiple domains, equally comfortable with Fintech,
+    Risk Management & Fraud Detection, or Geographical Information Systems and Smart
+    Cities, or logistics and roboti cs.
+
+    He established Alba Intelligence to advise clients and help them make the best use
+    of the latest machine learning technology to optimise their businesses. He shares
+    his passion and experience organising training or
+
+    Prior to Alba Intelligence, he has been an experienced Banking & Finance Professional
+    with 20+ years Asia Pacific & European Experience in Structured Finance, Risk
+    Management and Quantitative Modelling. Coming from a Computer Science and Petroleum
+    Engineering background, he has applied his knowledge to Equity Analysis, Project
+    Finance, Leasing and Non Asset-based Structured Transactions.
+
+    The thing that binds all of this together is his ability to be *creative* given
+    *highly technical, often conflicting, constraints*.
+
+    He is based in Hong Kong where he has lived since 2010. Prior to that he has lived
+    in Sydney, London, Moscow and Paris for 15 years.
+
+  email: information@alba-intelligence.com
+  phone: +852 6112 4005
+  linkedin: https://www.linkedin.com/in/emmanuelrialland
+  website:
+
+
+
+
+
+# - name: People 2
+#   function: All Stacks developer
+#   image: /uploads/photos/avatars/1.jpeg
+#   description: Finite but unbounded astonishment two ghostly white figures in coveralls and helmets are softly dancing billions upon billions Vangelis Hypatia.
+#   email: joost@vdschee.nl
+#   phone:
+#   linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+#   website:
+
+# - name: People 3
+#   function: Keyboard Guru
+#   image: /uploads/photos/avatars/3.jpeg
+#   description: Hypatia globular star cluster explorations the ash of stellar alchemy rings of Uranus a still more glorious dawn awaits.
+#   email: joost@vdschee.nl
+#   phone:
+#   linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+#   website:

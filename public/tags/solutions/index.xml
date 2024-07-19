@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solutions on </title>
+    <link>http://localhost:1313/tags/solutions/</link>
+    <description>Recent content in Solutions on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions Engineering</title>
+      <link>http://localhost:1313/services/solutions_engineering/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/solutions_engineering/</guid>
+      <description>Everything we do is solutions-oriented. Models, reports, and software we develop are only as powerful as their ability to fit into and be leveraged by your business.&#xA;Many analytics vendors can build you a great predictive model or dashboard, but very few go the extra mile of actually deploying that logic as a solution that fits into your organization. Those that do often tie their &amp;ldquo;deployment&amp;rdquo; to a proprietary, expensive solution that most likely doesn&amp;rsquo;t fit perfectly into your business&amp;rsquo;s processes and technology stack.</description>
+    </item>
+  </channel>
+</rss>

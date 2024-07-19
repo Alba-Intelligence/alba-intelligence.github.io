@@ -1,0 +1,27 @@
+logo_image: /uploads/branding/sunrise-AI.svg
+dark_footer: true
+menuitems:
+  - title: Our Services
+    link:  /services/
+
+  - title: Industries of Expertise
+    link:  /industries  /
+
+  - title: The Team & Careers
+    link:  /team/
+
+socials:
+  - title: Facebook
+    link: https://facebook.com
+    logo_image: /img/facebook.svg
+  - title: Twitter
+    link: https://twitter.com
+    logo_image: /img/twitter.svg
+  - title: Mastodon
+    link: https://joinmastodon.org
+    logo_image: /img/mastodon.svg
+  - title: Instagram
+    link: https://instagram.com
+    logo_image: /img/instagram.svg
+
+footer_text: © 2024 Alba Intelligence. [Theme based on HugoBricks avalilable on Github](https://github.com/jhvanderschee/hugobricks). [Work illustrations by Storyset](https://storyset.com/work).

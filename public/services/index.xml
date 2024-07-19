@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Services on Hugoplate</title>
+    <title>Our Services on </title>
     <link>http://localhost:1313/services/</link>
-    <description>Recent content in Our Services on Hugoplate</description>
+    <description>Recent content in Our Services on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business Intelligence &amp; Analytics</title>
+      <link>http://localhost:1313/services/business_analytics/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/business_analytics/</guid>
+      <description>Business Intelligence &amp;amp; Analytics Does worrying about what you don&amp;rsquo;t know and what you might be missing keep you up at night? Let our business intelligence experts provide you with insights on your organization from every angle. We don&amp;rsquo;t stop at telling you the who, what, where, and when&amp;hellip; we&amp;rsquo;ll show you the how and why as well.&#xA;​Moreover, any business intelligence and analytics solution we provide is always deployed in a live production environment.</description>
+    </item>
+    <item>
+      <title>Due Diligence</title>
+      <link>http://localhost:1313/services/due_diligence/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/due_diligence/</guid>
+      <description>Cut through the buzzwords, assess technologies, quantify.&#xA;Due Diligence When a technology is hot, many companies rush to raise funds on the basis of buzzwords instead of proven, scalable techologies. We separate the signal from the noise.&#xA;Our team has experience in equity analysis and buy-side due diligence. Combined with our knowledge of of computer science ever-changing technologies and latest developments in AI models, Generative AI, we can assist you and support your decision-making.</description>
+    </item>
+    <item>
+      <title>Predictive Modelling</title>
+      <link>http://localhost:1313/services/predictive_modelling/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/predictive_modelling/</guid>
+      <description>Predictive Modelling Predictive Analytics, Machine Learning, and AI are at the forefront of organizational initiatives across just about every industry today. While they might be the hottest topics around right now, Alba Intelligence have been building predictive models since before it was deep learning was the thing, and have been on top of the leading-edge advances in the field that are happening every day.&#xA;​Our team is armed with a decade of model-building experience, including statistical &amp;amp; probabilistic models, graph analysis, machine learning, recommendation engines, and risk forecasting.</description>
+    </item>
+    <item>
+      <title>Solutions Engineering</title>
+      <link>http://localhost:1313/services/solutions_engineering/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/solutions_engineering/</guid>
+      <description>Everything we do is solutions-oriented. Models, reports, and software we develop are only as powerful as their ability to fit into and be leveraged by your business.&#xA;Many analytics vendors can build you a great predictive model or dashboard, but very few go the extra mile of actually deploying that logic as a solution that fits into your organization. Those that do often tie their &amp;ldquo;deployment&amp;rdquo; to a proprietary, expensive solution that most likely doesn&amp;rsquo;t fit perfectly into your business&amp;rsquo;s processes and technology stack.</description>
+    </item>
+    <item>
+      <title>Training &amp; Education</title>
+      <link>http://localhost:1313/services/training_education/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/training_education/</guid>
+      <description>Training &amp;amp; Education If there&amp;rsquo;s anything we have learned from working in the digital / technology space, it&amp;rsquo;s that change is constant.&#xA;Continuing education is incredibly important for businesses that want to keep pace with their competition. Alba Intelligence take pride in educating others to help them accomplish their digital goals.</description>
+    </item>
   </channel>
 </rss>

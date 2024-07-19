@@ -1,82 +1,460 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugoplate</title>
+    <title>Home on </title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Hugoplate</description>
+    <description>Recent content in Home on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Colors</title>
+      <link>http://localhost:1313/docs/customizations/colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/customizations/colors/</guid>
+      <description>The color definitions can be found in &amp;lsquo;style.css&amp;rsquo; in &amp;lsquo;/static/css/style.css&amp;rsquo;. The definitions are stored in CSS variables. Changing these variables will change the colors in your whole website. The default settings (from this website) look like this:&#xA;:root { --textDark: rgba(38, 50, 56, 1); --textMedium: rgba(38, 50, 56, 0.7); --borderMedium: rgba(38, 50, 56, 0.2); --borderLight: rgba(38, 50, 56, 0.075); --accent: #f4b500; --textAccent: #e6ac00; --light: rgba(38, 50, 56, 0.035); } Colorizing The icons in this theme (and some of the images) are actually black/grayscale.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Getting started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description> Clone the repository and run Hugo Enjoy a good looking ready-made website Change the content and the order of the &amp;lsquo;bricks&amp;rsquo; Adjust the font and colors to your desire Enjoy your custom, easy to edit, website </description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-3/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Fonts</title>
+      <link>http://localhost:1313/docs/customizations/fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/customizations/fonts/</guid>
+      <description>The font files are stored in the &amp;lsquo;/static/fonts/&amp;rsquo; directory of the theme. The font definitions can be found in &amp;lsquo;fonts.css&amp;rsquo; in &amp;lsquo;/static/css/fonts.css&amp;rsquo;. Changing this file will change the fonts in your whole website. This file looks like this:&#xA;@font-face { font-display: swap; font-family: &amp;#39;Signika&amp;#39;; font-style: normal; font-weight: 700; src: url(&amp;#39;/fonts/signika-v20-latin-700.woff2&amp;#39;) format(&amp;#39;woff2&amp;#39;); } @font-face { font-display: swap; font-family: &amp;#39;Heebo&amp;#39;; font-style: normal; font-weight: 400; src: url(&amp;#39;/fonts/heebo-v21-latin-regular.woff2&amp;#39;) format(&amp;#39;woff2&amp;#39;); } @font-face { font-display: swap; font-family: &amp;#39;Heebo&amp;#39;; font-style: normal; font-weight: 600; src: url(&amp;#39;/fonts/heebo-v21-latin-600.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-4/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>CSS overrides</title>
+      <link>http://localhost:1313/docs/customizations/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/customizations/css/</guid>
+      <description>Want to go all the way with customization? No problem! With CSS overrides you can make it even look like this. The sky is the limit. Just write your overrides at the bottom of the &amp;lsquo;style.css&amp;rsquo; file in the &amp;lsquo;/static/css/&amp;rsquo; directory. Look for the following line in this files and write your CSS below:&#xA;/*------------ CSS overrides below --------------*/ Customization examples Some examples of website that use Hugobricks:&#xA;https://www.aadprins.preview.usecue.com https://www.postgrowthcities.com https://www.</description>
+    </item>
+    <item>
+      <title>Banking &amp; Finance</title>
+      <link>http://localhost:1313/industries/banking_finance/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/banking_finance/</guid>
+      <description>The most promising data &amp;amp; AI cases in Banking For banks, ensuring the adoption of AI technologies across the enterprise is no longer a choice, but a strategic imperative. Envisioning and building the bank’s AI capabilities is critical to succeed in an increasingly competitive marketplace. The value generation potential by AI for banks is estimated to be USD 1 trillion globally per annum. The largest part of this value is to be found within the Marketing &amp;amp; Sales (e.</description>
+    </item>
+    <item>
+      <title>Business Intelligence &amp; Analytics</title>
+      <link>http://localhost:1313/services/business_analytics/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/business_analytics/</guid>
+      <description>Business Intelligence &amp;amp; Analytics Does worrying about what you don&amp;rsquo;t know and what you might be missing keep you up at night? Let our business intelligence experts provide you with insights on your organization from every angle. We don&amp;rsquo;t stop at telling you the who, what, where, and when&amp;hellip; we&amp;rsquo;ll show you the how and why as well.&#xA;​Moreover, any business intelligence and analytics solution we provide is always deployed in a live production environment.</description>
+    </item>
+    <item>
+      <title>Due Diligence</title>
+      <link>http://localhost:1313/services/due_diligence/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/due_diligence/</guid>
+      <description>Cut through the buzzwords, assess technologies, quantify.&#xA;Due Diligence When a technology is hot, many companies rush to raise funds on the basis of buzzwords instead of proven, scalable techologies. We separate the signal from the noise.&#xA;Our team has experience in equity analysis and buy-side due diligence. Combined with our knowledge of of computer science ever-changing technologies and latest developments in AI models, Generative AI, we can assist you and support your decision-making.</description>
+    </item>
+    <item>
+      <title>Insurance</title>
+      <link>http://localhost:1313/industries/insurance/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/insurance/</guid>
+      <description>Insurance Data has been at the heart of the insurance industry since its beginnings. The explosion of data globally, along with exponential increases in computing power, is driving advances in AI. This creates unprecedented opportunities especially for insurers, where AI has already started to revolutionize the industry. Key use cases of AI technology lie within product development, sales and marketing, pricing and underwriting as well as claims settlement.&#xA;Product development On-demand insurance: With the emergence of more specific needs and the increased use of online services, the traditional insurance model tends to an on-demand strategy.</description>
+    </item>
+    <item>
+      <title>Logistics</title>
+      <link>http://localhost:1313/industries/logistics/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/logistics/</guid>
+      <description>Logistics AI technologies in logistics are not a luxury but a necessity for organizations to remain competitive in terms of service excellence and pricing. According to Forbes research, 65% of the industry leaders believe that logistics and transportation, have entered an era of profound transformation. Key application domains for AI in logistics include demand forecasting, warehousing, fleet &amp;amp; route optimization and predictive maintenance.&#xA;Freight delivery &amp;amp; warehousing Predictive maintenance (e.</description>
+    </item>
+    <item>
+      <title>Manufacturing</title>
+      <link>http://localhost:1313/industries/manufacturing/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/manufacturing/</guid>
+      <description>Manufacturing Revolutionary technologies such as Cloud Computing, Big Data, AI &amp;amp; Machine Learning bring tremendous opportunities for companies to reduce cost and increase productivity.&#xA;The emergence of these digital technologies can provide significant value, yet the implementation process still poses major challenges, especially in the context of the manufacturing industry. Slow technology rollout, high system complexity and a lack of technical knowledge or digital expertise are just some of the key challenges a modern manufacturing company has to go through.</description>
+    </item>
+    <item>
+      <title>Predictive Modelling</title>
+      <link>http://localhost:1313/services/predictive_modelling/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/predictive_modelling/</guid>
+      <description>Predictive Modelling Predictive Analytics, Machine Learning, and AI are at the forefront of organizational initiatives across just about every industry today. While they might be the hottest topics around right now, Alba Intelligence have been building predictive models since before it was deep learning was the thing, and have been on top of the leading-edge advances in the field that are happening every day.&#xA;​Our team is armed with a decade of model-building experience, including statistical &amp;amp; probabilistic models, graph analysis, machine learning, recommendation engines, and risk forecasting.</description>
+    </item>
+    <item>
+      <title>Retail &amp; Consumer Goods</title>
+      <link>http://localhost:1313/industries/retail/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/retail/</guid>
+      <description>Retail &amp;amp; Consumer Goods AI is reinventing the landscape for physical shops, e-commerce and consumer goods producers. From customizing promotions in real time, optimizing inventory management and providing tailored product recommendations online, retailers can harness AI to connect with their customers and operate more efficiently. Consumer good producers can leverage AI to improve their marketing mix, pricing and product assortment (in addition to manufacturing-centric use cases).&#xA;Sales Personalized product recommendations: By analyzing the items that a user consults, adds to its cart, or spends time on, it is possible to find out its preferences and recommend purchases that the customer is likely to make.</description>
+    </item>
+    <item>
+      <title>Solutions Engineering</title>
+      <link>http://localhost:1313/services/solutions_engineering/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/solutions_engineering/</guid>
+      <description>Everything we do is solutions-oriented. Models, reports, and software we develop are only as powerful as their ability to fit into and be leveraged by your business.&#xA;Many analytics vendors can build you a great predictive model or dashboard, but very few go the extra mile of actually deploying that logic as a solution that fits into your organization. Those that do often tie their &amp;ldquo;deployment&amp;rdquo; to a proprietary, expensive solution that most likely doesn&amp;rsquo;t fit perfectly into your business&amp;rsquo;s processes and technology stack.</description>
+    </item>
+    <item>
+      <title>Training &amp; Education</title>
+      <link>http://localhost:1313/services/training_education/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/training_education/</guid>
+      <description>Training &amp;amp; Education If there&amp;rsquo;s anything we have learned from working in the digital / technology space, it&amp;rsquo;s that change is constant.&#xA;Continuing education is incredibly important for businesses that want to keep pace with their competition. Alba Intelligence take pride in educating others to help them accomplish their digital goals.</description>
+    </item>
+    <item>
+      <title>404 (not found)</title>
+      <link>http://localhost:1313/docs/bricks/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/404/</guid>
+      <description>Having a nice 404 (page not found) page is always nice. This brick provides one. You can see it in action on the custom 404 page.&#xA;Use this brick You can stack the brick on top of other bricks, which is explained in the Bricks page. If you want the brick to be the same on every page you can use this brick by writing:&#xA;{{&amp;lt; brick_404 &amp;gt;}}{{&amp;lt; /brick_404 &amp;gt;}} Content in content/en/bricks/404.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hey, I am John Doe Together with my friend &amp;lsquo;Fenix&amp;rsquo; I have built Hugobricks, a theme that allows you to create a website by stacking shortcodes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.&#xA;Contact Alba Intelligence to get started We are always available and interested in having an introductory chat with you.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/docs/bricks/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/about/</guid>
+      <description>Description coming soon&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Basic page 1</title>
+      <link>http://localhost:1313/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/basic/</guid>
+      <description>Basic page 1 HomeBasic page 1 Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh. Morbi sed quam rhoncus felis tempus porttitor a nec nisl. Nulla facilisi. In suscipit velit sed lacus condimentum, at fermentum nulla faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</description>
+    </item>
+    <item>
+      <title>Basic page 2</title>
+      <link>http://localhost:1313/basic2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/basic2/</guid>
+      <description>HomeBasic page 2 Basic page 2 Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh. Morbi sed quam rhoncus felis tempus porttitor a nec nisl. Nulla facilisi. In suscipit velit sed lacus condimentum, at fermentum nulla faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</description>
+    </item>
+    <item>
+      <title>Breadcrumbs</title>
+      <link>http://localhost:1313/docs/shortcodes/breadcrumbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/breadcrumbs/</guid>
+      <description>Breadcrumb paths are a single line of links (often placed above the title) that show a page&amp;rsquo;s location in the site hierarchy. Every website should have breadcrumbs, as it benefits SEO as well as the users understanding of the sites structure. See in action on the Elements page. To show the breadcrumbs, write the following &amp;lsquo;code&amp;rsquo;:&#xA;{{&amp;lt; breadcrumbs &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Button</title>
+      <link>http://localhost:1313/docs/shortcodes/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/button/</guid>
+      <description>Buttons are a great way to drive conversion. They are actually links with the class &amp;lsquo;button&amp;rsquo;. You can see them in action on the Elements page. To show a button, write the following &amp;lsquo;code&amp;rsquo;:&#xA;{{&amp;lt; button &amp;#34;Get started for free&amp;#34; &amp;#34;/get-started/&amp;#34; &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Call to action</title>
+      <link>http://localhost:1313/docs/bricks/cta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/cta/</guid>
+      <description>It is always nice (and good for conversion) to show a &amp;lsquo;Call to action&amp;rsquo; on your page (a short text, leading to a button and a related image). An example of such a &amp;lsquo;Call to action brick&amp;rsquo; can be found in the footer of this page. It is the block titled &amp;lsquo;Get started with Hugobricks today!&amp;rsquo;.&#xA;Use this brick You probably want the CTA brick to be the same on every page.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/docs/bricks/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/contact/</guid>
+      <description>Description coming soon&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Contact buttons</title>
+      <link>http://localhost:1313/docs/shortcodes/contactbuttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/contactbuttons/</guid>
+      <description>Contact buttons offer a quick and visual way to contact the site owner. The settings for these buttons can be found in the &amp;lsquo;contact&amp;rsquo; section of the &amp;lsquo;general.yaml&amp;rsquo; file in the data directory. You can see the contact buttons in action on the Elements page. To show the contact buttons, write the following shortcode:&#xA;{{&amp;lt; contactbuttons &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Contact form</title>
+      <link>http://localhost:1313/docs/shortcodes/contact-form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/contact-form/</guid>
+      <description>The contact form is an essential part for your websites conversion. The settings for this form can be found in the &amp;lsquo;contactform.yaml&amp;rsquo; file in the data directory. You can see the form in action on the Elements page. To show the contact form in your content, write the following shortcode:&#xA;{{&amp;lt; contactform &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Contact us</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>HomeContact us Contact us We are always available to understand your business needs. Contact us for an introductory discussion!&#xA;Ask us anything Name Email address Message I accept the terms and conditions Got a question? e-mail: information@alba-intelligence.com&#xA;Hong Kong phone:&#xA;+852 6112 4005&#xA;Contact us Contact Alba Intelligence to get started We are always available and interested in having an introductory chat with you.&#xA;Contact us now</description>
+    </item>
+    <item>
+      <title>cta</title>
+      <link>http://localhost:1313/bricks/cta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bricks/cta/</guid>
+      <description>Contact Alba Intelligence to get started We are always available and interested in having an introductory chat with you.&#xA;Contact us now</description>
     </item>
     <item>
       <title>Elements</title>
-      <link>http://localhost:1313/all_elements/</link>
+      <link>http://localhost:1313/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/all_elements/</guid>
-      <description>Table of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
+      <guid>http://localhost:1313/elements/</guid>
+      <description>HomeElements Elements Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci.&#xA;Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci. Etiam laoreet justo neque. Aenean nec porta mauris, ut luctus nibh. Morbi sed quam rhoncus felis tempus porttitor a nec nisl.</description>
     </item>
     <item>
-      <title>Emmanuel Rialland</title>
-      <link>http://localhost:1313/authors/emmanuel-rialland/</link>
+      <title>F.A.Q.</title>
+      <link>http://localhost:1313/docs/shortcodes/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/emmanuel-rialland/</guid>
-      <description>Emmanuel has a passion for AI, Machine Learning, Data Science, Quantitative Methods.</description>
+      <guid>http://localhost:1313/docs/shortcodes/faq/</guid>
+      <description>Want to add a block with the most frequently asked questions? Then use the code below. Do you want to see it in action? Have a look at the FAQ page or the Elements page.&#xA;{{&amp;lt; faq &amp;gt;}} The data for the FAQ&amp;rsquo;s is stored in the faqs.yaml in the data folder and looks like this:&#xA;- title: Hugobricks theme faqs: - question: Why choose Hugobricks for my next project? answer: Hugo allows you to build a fast, efficient, .</description>
     </item>
     <item>
-      <title>Our Services</title>
-      <link>http://localhost:1313/our_services/</link>
+      <title>F.A.Q.</title>
+      <link>http://localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/our_services/</guid>
-      <description>Our Services Solutions Engineering Business Analytics Predictive Modelling Everything we do is solutions-oriented.</description>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>HomeF.A.Q. Frequently Asked Questions Almost everything you want to know has been asked before. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin.&#xA;Hugobricks theme Why choose Hugobricks for my next project? Hugo allows you to build a fast, efficient, and scalable website. It offers you a clean separation of concerns, content vs layout and styles. The Hugobricks brings a pagebuilder to that workflow.</description>
     </item>
     <item>
-      <title>Privacy</title>
+      <title>features</title>
+      <link>http://localhost:1313/bricks/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bricks/features/</guid>
+      <description>The Ultimate Hugo theme Hugobricks covers all components you would like to have at hand. It is a power engine for your web oriented projects. It has excellent performance in all categories.&#xA;Covers all components We aim to provide the following bricks: intro, title, image, cta, contact, team, testimonials, about, pricing, products, product, usps, stats, gallery, quote, faqs, brands, video, blogs, post, related.&#xA;99+ Google Lighthouse score Lightning fast website. Lorem ipsum dolor sit amet consectetur adipisicing elit.</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>http://localhost:1313/docs/bricks/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/features/</guid>
+      <description>Want to show the selling points of your service or product? Say you want to achieve a neat Features &amp;lsquo;component&amp;rsquo;. You can see it in action at the home page of this website. To make it appear on your page, you can use the markup below.&#xA;Use this brick You probably want the Features brick to be the same on every page. You can stack the brick on top of other bricks, which is explained in the Bricks page.</description>
+    </item>
+    <item>
+      <title>Footer</title>
+      <link>http://localhost:1313/docs/settings/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/settings/footer/</guid>
+      <description>Show logo With this boolean variable you can choose between showing the logo in the footer, or just the name of the website.&#xA;Menu items This is an array that holds the footer menu. The items in this array consist of a title and a link field. In the title you put the page title and in link you put the relative url of that page.&#xA;Socials This is an array that holds the social links.</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>http://localhost:1313/docs/shortcodes/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/gallery/</guid>
+      <description>The gallery shortcode enables you to transform a folder in your asset directory into an image gallery. You can see it in action on the Elements page. To show an image gallery, write the following &amp;lsquo;code&amp;rsquo;:&#xA;{{&amp;lt; gallery dir=&amp;#34;/uploads/gallery/&amp;#34; &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/docs/settings/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/settings/general/</guid>
+      <description>Title The title field holds the title of the website. This is used in the SEO title of the page and in the footer if you choose not to use a logo there.&#xA;Description The description is used for the meta description (SEO field) when the page has no (other) content.&#xA;Favicon image A website is not complete without a nice favicon image (shown in the address bar of your browser).</description>
+    </item>
+    <item>
+      <title>Get started</title>
+      <link>http://localhost:1313/get-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/get-started/</guid>
+      <description>HomeGet started Get started Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat, nulla et scelerisque volutpat, elit felis condimentum odio, et bibendum lacus sem sed turpis.&#xA;Ask us anything Name Email address Message I accept the terms and conditions Contact us Contact Alba Intelligence to get started We are always available and interested in having an introductory chat with you.&#xA;Contact us now</description>
+    </item>
+    <item>
+      <title>Header</title>
+      <link>http://localhost:1313/docs/settings/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/settings/header/</guid>
+      <description>Logo image This sets the image in the header. Omitting a value here results in a &amp;rsquo;text logo&amp;rsquo; as you can see on this website. The text logo consists of the value in title field that can be found in the &amp;lsquo;general.yaml&amp;rsquo; file in the data folder and the logo_subtitle field that you can find in this data file.&#xA;Logo subtitle When you choose to omit the value for logo_image the &amp;rsquo;text logo&amp;rsquo; will appear.</description>
+    </item>
+    <item>
+      <title>Header image 1</title>
+      <link>http://localhost:1313/bgimage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bgimage/</guid>
+      <description>Build your next Hugo website with stackable content bricks Hugobricks is a free website theme for Hugo. It makes building Hugo websites child&amp;rsquo;s play due to its stackable (LEGO-like) content bricks. How about this &amp;lsquo;intro brick&amp;rsquo; with a clear call-to-action? Stack it on top of some image bricks and a pricing table and build a complete website in seconds!&#xA;Get started for free&#xA;The Ultimate Hugo theme Hugobricks covers all components you would like to have at hand.</description>
+    </item>
+    <item>
+      <title>Header image 2</title>
+      <link>http://localhost:1313/bgimage2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bgimage2/</guid>
+      <description>Header image 2 HomeHeader image 2 The Ultimate Hugo theme Hugobricks covers all components you would like to have at hand. It is a power engine for your web oriented projects. It has excellent performance in all categories.&#xA;Covers all components We aim to provide the following bricks: intro, title, image, cta, contact, team, testimonials, about, pricing, products, product, usps, stats, gallery, quote, faqs, brands, video, blogs, post, related.</description>
+    </item>
+    <item>
+      <title>Header image 3</title>
+      <link>http://localhost:1313/bgimage3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bgimage3/</guid>
+      <description>Build your next Hugo website with stackable content bricks Hugobricks is a free website theme for Hugo. It makes building Hugo websites child&amp;rsquo;s play due to its stackable (LEGO-like) content bricks. How about this &amp;lsquo;intro brick&amp;rsquo; with a clear call-to-action? Stack it on top of some image bricks and a pricing table and build a complete website in seconds!&#xA;Get started for free&#xA;The Ultimate Hugo theme Hugobricks covers all components you would like to have at hand.</description>
+    </item>
+    <item>
+      <title>Image</title>
+      <link>http://localhost:1313/docs/bricks/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/image/</guid>
+      <description>The image brick creates&amp;hellip; (description coming soon). This is achieved by the following markup:&#xA;{{&amp;lt; brick_image &amp;gt;}}{{&amp;lt; /brick_image &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Image alt</title>
+      <link>http://localhost:1313/docs/bricks/image2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/image2/</guid>
+      <description>The alternative image brick (image2) creates&amp;hellip; (description coming soon). This is achieved by the following markup:&#xA;{{&amp;lt; brick_image2 &amp;gt;}}{{&amp;lt; /brick_image2 &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>intro</title>
+      <link>http://localhost:1313/bricks/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bricks/intro/</guid>
+      <description>Our Services Hugobricks is a free website theme built with Hugo and vanilla CSS, providing everything you need to jumpstart your Hugo website and save valuable time.&#xA;Get started for free</description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/docs/bricks/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/intro/</guid>
+      <description>Say you want to achieve a neat Intro &amp;lsquo;component&amp;rsquo; (see the first content section at the home page of this sample website). Just re-use the following markup:&#xA;--- title: Page title --- {{&amp;lt; brick_intro &amp;gt;}} # The Ultimate Theme You Need To Start Your Hugo Website Hugobricks is a free website theme built with Hugo and vanilla CSS, providing everything you need to jumpstart your Hugo website and save valuable time.</description>
+    </item>
+    <item>
+      <title>map</title>
+      <link>http://localhost:1313/bricks/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bricks/map/</guid>
+      <description>Google Maps&#xA;Contact us Contact Alba Intelligence to get started We are always available and interested in having an introductory chat with you.&#xA;Contact us now</description>
+    </item>
+    <item>
+      <title>Map</title>
+      <link>http://localhost:1313/docs/bricks/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/map/</guid>
+      <description>Say you want to achieve a neat Map &amp;lsquo;component&amp;rsquo; (see the first content section at the home page of this sample website). In order to get such a component, just use the markup below. The content in the brick starts with a screenshot of the given map area and the URL of the mapping service provider (Google, OpenstreetMaps, etc). They will automatically be converted into a clickable map. If you want to see this brick in action, take a look at the footer of the contact page.</description>
+    </item>
+    <item>
+      <title>Map</title>
+      <link>http://localhost:1313/docs/shortcodes/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/map/</guid>
+      <description>A map is basically an image with a marker on top of it. The marker can be found in the &amp;lsquo;/static/img/&amp;rsquo; directory. Make sure to make your map image large enough, as it does not scale. The minimum size is a 900x400 pixel image. You can see the map shortcode in action on the Elements page. To show the map in your content, write the following shortcode:&#xA;{{&amp;lt; map &amp;#34;/uploads/map.png&amp;#34; &amp;#34;https://link.</description>
+    </item>
+    <item>
+      <title>Multiple languages</title>
+      <link>http://localhost:1313/docs/customizations/multiple-languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/customizations/multiple-languages/</guid>
+      <description>Hugobricks has been fully prepared to support a multilingual setup. In the docs you will see the &amp;lsquo;/en/&amp;rsquo; reference more than once. This means you can duplicate and translate all content in as many languages as you want by following a similar pattern with a different language string. Adding a language also requires an additional entry in the &amp;lsquo;config.yaml&amp;rsquo; file. This should then look simlilar to this:&#xA;defaultContentLanguage: en languages: en: languageName: English contentDir: content/en weight: 1 nl: languageName: Nederlands contentDir: content/nl weight: 2 Additionally, you need some string translations.</description>
+    </item>
+    <item>
+      <title>Our team</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/</guid>
+      <description>HomeOur team The Alba Crew With extensive career backgrounds in the financial services, industrial technology, consumer products, marketing, insurance, software development, architecture, and banking industries, our team believes that every modern-day business (regardless of size) can progress and gain significant competitive advantages if they can start leveraging data.&#xA;We can help you navigate the data landscape no matter where you are on your analytics journey. We can show you where to start, get you up and running, show you how to improve upon your current analytics initiatives, validate programs you have in place or are evaluating, or take you all the way from zero to a full-stack machine learning / artificial intelligence shop.</description>
+    </item>
+    <item>
+      <title>Page not found (404)</title>
+      <link>http://localhost:1313/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/404/</guid>
+      <description>Oops! Something went wrong! Back to home</description>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/docs/bricks/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/posts/</guid>
+      <description>If you want to show the latest (blog) posts on your website, you can use the posts brick. This requires you to use the following markup:&#xA;--- title: Page title --- {{&amp;lt; brick_posts &amp;gt;}} {{&amp;lt; breadcrumbs &amp;gt;}} # Blog posts This is a demo of the blog. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin. {{&amp;lt; /brick_posts &amp;gt;}} Note that this requires you to have a directory called &amp;lsquo;posts&amp;rsquo; in &amp;lsquo;content&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
       <link>http://localhost:1313/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/privacy-policy/</guid>
-      <description>Responsibility of Contributors Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>Our Privacy Policy Alba Intelligence Limited (Our Company) is part of the Alba Intelligence Group. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website.&#xA;Topics: What data do we collect? How do we collect your data? How will we use your data? How do we store your data? Marketing What are your data protection rights? What are cookies?</description>
     </item>
     <item>
-      <title>Ready to build your next project with Hugo?</title>
-      <link></link>
+      <title>Product 1</title>
+      <link>http://localhost:1313/products/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
+      <guid>http://localhost:1313/products/1/</guid>
       <description></description>
     </item>
     <item>
-      <title>What Users Are Saying About Hugoplate</title>
-      <link></link>
+      <title>Reviews</title>
+      <link>http://localhost:1313/bricks/reviews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
+      <guid>http://localhost:1313/bricks/reviews/</guid>
+      <description>What users say about Hugobricks Don&amp;rsquo;t just take our word for it - hear from some of our satisfied users! Check out some of our testimonials below to see what others are saying about Hugobricks.</description>
+    </item>
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1313/docs/bricks/reviews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/reviews/</guid>
+      <description>Say you want to achieve a neat Reviews &amp;lsquo;component&amp;rsquo;, with some feedback. See the relevant section at the home page of this sample website. Just use the following markup:&#xA;--- title: Page title --- {{&amp;lt; brick_reviews &amp;gt;}} ## What Users Are Saying About Hugobricks Don&amp;#39;t just take our word for it - hear from some of our satisfied users! Check out some of our testimonials below to see what others are saying about Hugobricks.</description>
+    </item>
+    <item>
+      <title>Social buttons</title>
+      <link>http://localhost:1313/docs/shortcodes/socialbuttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/socialbuttons/</guid>
+      <description>If you want to link to social media you can use the social media buttons shortcode. The settings for these icons can be found in the &amp;lsquo;footer.yaml&amp;rsquo; file in the data directory. You can see the social buttons in action on the Elements page. To show the social buttons, write the following shortcode:&#xA;{{&amp;lt; socialbuttons &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Subpages</title>
+      <link>http://localhost:1313/docs/shortcodes/subpages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/subpages/</guid>
+      <description>Sometimes, like here, you want to show a list of the subpages. This shortcode makes that really easy. It outputs a simple unordered list with links. To show the subpages, write the following shortcode:&#xA;{{&amp;lt; subpages &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Tabs</title>
+      <link>http://localhost:1313/docs/shortcodes/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/tabs/</guid>
+      <description>You can see the form in action on the Elements page.&#xA;{{&amp;lt; tabs &amp;gt;}} ## Tab1 Aliquam et dictum sem. --- ## Tab2 Aliquam et dictum sem. {{&amp;lt; /tabs &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Team</title>
+      <link>http://localhost:1313/docs/bricks/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/team/</guid>
+      <description>Description coming soon&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Title</title>
+      <link>http://localhost:1313/docs/bricks/title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/title/</guid>
+      <description>The title brick creates a narrow h1 title with an introduction paragraph below it. You can see it in action on the top of the Elements page. This is achieved by the following markup:&#xA;--- title: Page title --- {{&amp;lt; brick_title &amp;gt;}} {{&amp;lt; breadcrumbs &amp;gt;}} # Elements Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hendrerit lacus. Sed eget dapibus dui. Phasellus non ante sollicitudin, ultrices ex et, convallis orci.</description>
+    </item>
+    <item>
+      <title>Title alt</title>
+      <link>http://localhost:1313/docs/bricks/title2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/title2/</guid>
+      <description>The alternative title brick (title2) creates&amp;hellip; (description coming soon). This is achieved by the following markup:&#xA;{{&amp;lt; brick_title2 &amp;gt;}}{{&amp;lt; /brick_title2 &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/docs/shortcodes/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/video/</guid>
+      <description>The video shortcode enables you to put an HTML5 video in your project. You can see it in action on the Elements page. To show a HTML5 video, write the following &amp;lsquo;code&amp;rsquo;:&#xA;{{&amp;lt; video &amp;#34;/uploads/video/flowers.mp4&amp;#34; &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Wide</title>
+      <link>http://localhost:1313/docs/bricks/wide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/bricks/wide/</guid>
+      <description>The wide brick creates&amp;hellip; (description coming soon). This is achieved by the following markup:&#xA;{{&amp;lt; brick_wide &amp;gt;}}{{&amp;lt; /brick_wide &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Youtube</title>
+      <link>http://localhost:1313/docs/shortcodes/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/shortcodes/youtube/</guid>
+      <description>Youtube is a popular video streaming service ( from a company that is known for tracking and profiling, though). The solution is to host the poster yourself and link it to Youtube. This can be done using this shortcode.&#xA;You can see it in action on the Elements page. To show a Youtube video embed, write the following &amp;lsquo;code&amp;rsquo;:&#xA;{{&amp;lt; youtube &amp;#34;qtIqKaDlqXo&amp;#34; &amp;#34;/uploads/youtubeposter.jpg&amp;#34; &amp;gt;}} </description>
     </item>
   </channel>
 </rss>

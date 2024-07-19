@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Insurance on </title>
+    <link>http://localhost:1313/tags/insurance/</link>
+    <description>Recent content in Insurance on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/insurance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insurance</title>
+      <link>http://localhost:1313/industries/insurance/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industries/insurance/</guid>
+      <description>Insurance Data has been at the heart of the insurance industry since its beginnings. The explosion of data globally, along with exponential increases in computing power, is driving advances in AI. This creates unprecedented opportunities especially for insurers, where AI has already started to revolutionize the industry. Key use cases of AI technology lie within product development, sales and marketing, pricing and underwriting as well as claims settlement.&#xA;Product development On-demand insurance: With the emergence of more specific needs and the increased use of online services, the traditional insurance model tends to an on-demand strategy.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts on Hugoplate</title>
+    <title>Blog on </title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog Posts on Hugoplate</description>
+    <description>Recent content in Blog on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Banking &amp; Finance</title>
+      <link>http://localhost:1313/posts_unused/banking_finance/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts_unused/banking_finance/</guid>
+      <description>The most promising data &amp;amp; AI cases in Banking For banks, ensuring the adoption of AI technologies across the enterprise is no longer a choice, but a strategic imperative. Envisioning and building the bank’s AI capabilities is critical to succeed in an increasingly competitive marketplace. The value generation potential by AI for banks is estimated to be USD 1 trillion globally per annum. The largest part of this value is to be found within the Marketing &amp;amp; Sales (e.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Insurance</title>
+      <link>http://localhost:1313/posts_unused/insurance/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts_unused/insurance/</guid>
+      <description>Insurance Data has been at the heart of the insurance industry since its beginnings. The explosion of data globally, along with exponential increases in computing power, is driving advances in AI. This creates unprecedented opportunities especially for insurers, where AI has already started to revolutionize the industry. Key use cases of AI technology lie within product development, sales and marketing, pricing and underwriting as well as claims settlement.&#xA;Product development On-demand insurance: With the emergence of more specific needs and the increased use of online services, the traditional insurance model tends to an on-demand strategy.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-3/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Logistics</title>
+      <link>http://localhost:1313/posts_unused/logistics/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts_unused/logistics/</guid>
+      <description>Logistics AI technologies in logistics are not a luxury but a necessity for organizations to remain competitive in terms of service excellence and pricing. According to Forbes research, 65% of the industry leaders believe that logistics and transportation, have entered an era of profound transformation. Key application domains for AI in logistics include demand forecasting, warehousing, fleet &amp;amp; route optimization and predictive maintenance.&#xA;Freight delivery &amp;amp; warehousing Predictive maintenance (e.</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-4/</guid>
-      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+      <title>Manufacturing</title>
+      <link>http://localhost:1313/posts_unused/manufacturing/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts_unused/manufacturing/</guid>
+      <description>Manufacturing Revolutionary technologies such as Cloud Computing, Big Data, AI &amp;amp; Machine Learning bring tremendous opportunities for companies to reduce cost and increase productivity.&#xA;The emergence of these digital technologies can provide significant value, yet the implementation process still poses major challenges, especially in the context of the manufacturing industry. Slow technology rollout, high system complexity and a lack of technical knowledge or digital expertise are just some of the key challenges a modern manufacturing company has to go through.</description>
+    </item>
+    <item>
+      <title>Retail &amp; Consumer Goods</title>
+      <link>http://localhost:1313/posts_unused/retail/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts_unused/retail/</guid>
+      <description>Retail &amp;amp; Consumer Goods AI is reinventing the landscape for physical shops, e-commerce and consumer goods producers. From customizing promotions in real time, optimizing inventory management and providing tailored product recommendations online, retailers can harness AI to connect with their customers and operate more efficiently. Consumer good producers can leverage AI to improve their marketing mix, pricing and product assortment (in addition to manufacturing-centric use cases).&#xA;Sales Personalized product recommendations: By analyzing the items that a user consults, adds to its cart, or spends time on, it is possible to find out its preferences and recommend purchases that the customer is likely to make.</description>
     </item>
   </channel>
 </rss>

@@ -11,7 +11,6 @@
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
           git
-          go
           hugo
           imagemagick
           nodePackages.npm
