@@ -1,8 +1,8 @@
-[![](/hugobricks.jpg)](https://vimeo.com/862118474)
+
+This site uses the Hugobricks template. We have extended it with a few bricks for our specific purpose.
+
 
 # What is Hugobricks?
-
-[View DEMO website](https://www.hugobricks.preview.usecue.com/)
 
 Hugobricks is a free website theme for Hugo. It makes building Hugo websites child’s play due to its stackable (LEGO-like) content bricks. Stack an intro brick on top of some image bricks and a pricing table and build a complete website in seconds!
 
@@ -95,7 +95,7 @@ In order to get a working website you should:
 
 Hugobricks is build with the regular [Hugo](https://gohugo.io/overview/introduction/) building blocks, like [shortcodes](https://gohugo.io/content-management/shortcodes/#what-a-shortcode-is), [partials](https://gohugo.io/templates/partials/) and [layouts](https://gohugo.io/templates/base/). Hugobricks takes advantage of these things to allow content re-use, pivot around content and layouts, and calling the required styling and functional logic.
 
-## Hugobricks Feedback 
+## Hugobricks Feedback
 
 Make your wishlist. Missing a given Hugobrick? [Let us know.](https://github.com/jhvanderschee/hugobricks/issues/5)
 
