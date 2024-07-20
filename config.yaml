@@ -2,8 +2,13 @@ baseURL: https://www.hugobricks.preview.usecue.com
 theme: hugobricks
 defaultContentLanguage: en
 assetDir: static
+math: true
 
-markup:
+services:
+  googleAnalytics:
+    id: "G-7SDG43FBQT"
+
+  markup:
   goldmark:
     renderer:
       unsafe: true # Allow HTML in md files
@@ -14,8 +19,8 @@ languages:
     contentDir: content/en
     weight: 1
     disabled: false
-  nl:
-    languageName: Nederlands
-    contentDir: content/nl
+  fr:
+    languageName: Français
+    contentDir: content/fr
     weight: 2
     disabled: true
