@@ -1,7 +1,6 @@
 {{ if .Site.Config.Services.GoogleAnalytics.ID }}
   {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
+    {{ end }}
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/schema.html" . }}
