@@ -15,12 +15,12 @@ markup:
 
 languages:
   en:
-    languageName: English
+    label: English
     contentDir: content/en
     weight: 1
     disabled: false
   fr:
-    languageName: Français
+    label: Français
     contentDir: content/fr
     weight: 2
     disabled: true

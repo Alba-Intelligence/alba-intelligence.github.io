@@ -8,8 +8,6 @@
   packages = with pkgs; [
     hugo
     imagemagick
-    nodePackages.npm
-    imagemagick
   ];
 
   # https://devenv.sh/languages/
