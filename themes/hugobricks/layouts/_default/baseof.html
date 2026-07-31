@@ -4,7 +4,7 @@
   <head>
       <!-- Title -->
     <title>
-        {{ if .Params.seo.title }}{{ .Params.seo.title }}{{ else }}{{ .Title }} | {{ (index .Site.Data .Language.Lang).general.title }} {{ (index .Site.Data .Language.Lang).header.logo_subtitle }}{{ end }}
+        {{ if .Params.seo.title }}{{ .Params.seo.title }}{{ else }}{{ .Title }} | {{ (index site.Data .Language.Lang).general.title }} {{ (index site.Data .Language.Lang).header.logo_subtitle }}{{ end }}
     </title>
 
     <!-- Meta -->
@@ -13,7 +13,7 @@
     <meta name="description" content="{{ if .Params.seo.description }}{{ .Params.seo.description }}{{ else }}{{ .Summary }}{{ end }}">
 
     <link rel="canonical" href="{{ .Permalink }}" />
-    <link rel="shortcut icon" href="{{ .Site.Data.settings.favicon_image }}">
+    <link rel="shortcut icon" href="{{ site.Data.settings.favicon_image }}">
 
     <link href="/css/style.css?version={{ now }}" rel="stylesheet">
 
@@ -26,7 +26,7 @@
   <body id="top" class="{{ if in (substr .Content  0 100) `transparent_header` }}transparent_header{{ end }} filename_{{ with .File }}{{ .BaseFileName }}{{ end }}">
     <script>
       function updateSize() {
-        if ( window.innerWidth < {{ (index .Site.Data .Language.Lang).header.mobile_view_width }} )
+        if ( window.innerWidth < {{ (index site.Data .Language.Lang).header.mobile_view_width }} )
           document.body.classList.add('mobilemenu');
         else
           document.body.classList.remove('mobilemenu');
@@ -36,23 +36,23 @@
     </script>
 
     <div class="innerbody">
-    {{- if .Site.Data.settings.preheader.active -}}
-      <div class="preheader{{ if .Site.Data.settings.preheader.is_light }} light{{- end -}}">
+    {{- if site.Data.settings.preheader.active -}}
+      <div class="preheader{{ if site.Data.settings.preheader.is_light }} light{{- end -}}">
         <div class="container">
           <div class="icons">
-            {{- if (index .Site.Data .Language.Lang).general.contact.phone -}}
-              <a href="tel:{{ replace (index .Site.Data .Language.Lang).general.contact.phone ` ` `` }}" class="icon"><img src="/img/phone.svg" alt="{{ (index .Site.Data .Language.Lang).general.contact.phone }}" class="black_2_textMedium" /> {{ (index .Site.Data .Language.Lang).general.contact.phone }}</a>
+            {{- if (index site.Data .Language.Lang).general.contact.phone -}}
+              <a href="tel:{{ replace (index site.Data .Language.Lang).general.contact.phone ` ` `` }}" class="icon"><img src="/img/phone.svg" alt="{{ (index site.Data .Language.Lang).general.contact.phone }}" class="black_2_textMedium" /> {{ (index site.Data .Language.Lang).general.contact.phone }}</a>
             {{- end -}}
-            {{- if (index .Site.Data .Language.Lang).general.contact.email -}}
-              <a href="mailto:{{ (index .Site.Data .Language.Lang).general.contact.email }}" class="icon">
-                <img src="/img/email.svg" alt="{{ (index .Site.Data .Language.Lang).general.contact.email }}" class="black_2_textMedium" />
-                {{ (index .Site.Data .Language.Lang).general.contact.email }}
+            {{- if (index site.Data .Language.Lang).general.contact.email -}}
+              <a href="mailto:{{ (index site.Data .Language.Lang).general.contact.email }}" class="icon">
+                <img src="/img/email.svg" alt="{{ (index site.Data .Language.Lang).general.contact.email }}" class="black_2_textMedium" />
+                {{ (index site.Data .Language.Lang).general.contact.email }}
               </a>
             {{- end -}}
           </div>
           <div>
-            {{- if .Site.Data.settings.preheader.text -}}
-              {{ .Site.Data.settings.preheader.text }}
+            {{- if site.Data.settings.preheader.text -}}
+              {{ site.Data.settings.preheader.text }}
             {{- end -}}
           </div>
         </div>
@@ -60,7 +60,7 @@
     {{- end -}}
 
     <header>
-      <div class="container {{ if (index .Site.Data .Language.Lang).header.cta.active }}has_cta{{ end }}">
+      <div class="container {{ if (index site.Data .Language.Lang).header.cta.active }}has_cta{{ end }}">
         <div>
           {{ partial "logo.html" . }}
         </div>
@@ -68,7 +68,7 @@
         <div class="nav">
           <nav>
             <ul>
-              {{ range (index .Site.Data .Language.Lang).header.menuitems }}
+              {{ range (index site.Data .Language.Lang).header.menuitems }}
                 <li class="{{ if eq .link `/` }}{{ if eq $.RelPermalink `/` }}active{{ end }}{{ else }}{{ if in $.RelPermalink .link }}active{{ end }}{{ end }}{{ if (index .items 0).title }} haschildren{{ end }}"><a href="{{ .link }}">{{ .title }}</a>
                   {{ if (index .items 0).title }}
                   <ul>
@@ -83,10 +83,10 @@
           </nav>
         </div>
 
-        {{ if (index .Site.Data .Language.Lang).header.cta.active }}
+        {{ if (index site.Data .Language.Lang).header.cta.active }}
           <div>
-            <a href="{{ (index .Site.Data .Language.Lang).header.cta.link }}" class="button ghost smaller">
-              {{ (index .Site.Data .Language.Lang).header.cta.title }}
+            <a href="{{ (index site.Data .Language.Lang).header.cta.link }}" class="button ghost smaller">
+              {{ (index site.Data .Language.Lang).header.cta.title }}
             </a>
           </div>
         {{ end }}
@@ -96,7 +96,7 @@
 
     {{- block "content" . -}}{{- end -}}
 
-    <footer class="{{ if (index .Site.Data .Language.Lang).footer.dark_footer }}dark{{ end }}">
+    <footer class="{{ if (index site.Data .Language.Lang).footer.dark_footer }}dark{{ end }}">
       <div>
         <div class="container">
           <div>
@@ -104,7 +104,7 @@
           </div>
           <div>
             <ul>
-              {{ range (index .Site.Data .Language.Lang).footer.menuitems }}
+              {{ range (index site.Data .Language.Lang).footer.menuitems }}
                 <li><a href="{{ .link }}">{{ .title }}</a></li>
               {{ end }}
             </ul>
@@ -116,12 +116,12 @@
       </div>
       <div>
         <div class="container">
-		      <div>{{ markdownify (index .Site.Data .Language.Lang).footer.footer_text }}</div>
+		      <div>{{ markdownify (index site.Data .Language.Lang).footer.footer_text }}</div>
 		    </div>
   		</div>
 		</footer>
 
-		{{ if .Site.Data.settings.sticky_header }}
+		{{ if site.Data.settings.sticky_header }}
       <script type="text/javascript" src="/js/stickyheader.js"></script>
     {{ end }}
 
@@ -130,12 +130,12 @@
 
     <link rel="stylesheet" href="/css/lightbox.css">
 
-    {{ if .Site.Data.settings.customcursor }}
+    {{ if site.Data.settings.customcursor }}
       <script type="text/javascript" src="/js/customcursor.js"></script>
       <link rel="stylesheet" href="/css/customcursor.css">
     {{ end }}
 
-    {{ if .Site.Data.settings.intersectionobserver }}
+    {{ if site.Data.settings.intersectionobserver }}
       <script type="text/javascript" src="/js/intersectionobserver.js"></script>
       <link rel="stylesheet" href="/css/intersectionobserver.css">
     {{ end }}
