@@ -4,21 +4,6 @@
 @import "bricks.css";
 
 /*------------------------*/
-/* theme colors
-/*------------------------*/
-
-:root {
-    --textDark: #1a1a1a;
-    --textMedium: rgba(26, 26, 26, 0.72);
-    --borderMedium: rgba(26, 26, 26, 0.15);
-    --borderLight: rgba(26, 26, 26, 0.06);
-    --accent: #c4a035;
-    --textAccent: #a8862a;
-    --light: #fafaf8;
-    --shadow: rgba(100, 80, 60, 0.08);
-    --shadowStrong: rgba(100, 80, 60, 0.15);
-}
-/*------------------------*/
 /* turn grayscale off
 /*------------------------*/
 

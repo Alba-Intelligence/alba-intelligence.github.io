@@ -27,9 +27,9 @@
 /* header
 /*------------------------*/
 
-header {position: absolute; background: white; z-index: var(--z-sticky); width: 100%;}
+header {position: absolute; background: var(--light); z-index: var(--z-sticky); width: 100%;}
 header > .container {padding-top: 1.5rem; padding-bottom: 1.5rem; position: relative;}
-header.sticky {box-shadow: 0 0 0.5rem var(--shadow); background: white; position: fixed; top: 0;}
+header.sticky {box-shadow: 0 0 0.5rem var(--shadow); background: var(--light); position: fixed; top: 0;}
 header.sticky > .container {padding-top: 0.75rem; padding-bottom: 0.75rem;}
 header a {text-decoration: none;}
 header ul {display: flex; justify-content: flex-end; gap: 2rem; margin: 0;}
