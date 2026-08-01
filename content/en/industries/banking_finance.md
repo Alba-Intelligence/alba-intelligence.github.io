@@ -1,7 +1,7 @@
 ---
 title: 'Banking & Finance'
 image: /uploads/illustrations/amico/Banking.svg_nobg.png
-date: 2024-07-14
+date: 2024-04-17
 tags:
   - Banking
   - Finance

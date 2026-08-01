@@ -8,13 +8,15 @@
 /*------------------------*/
 
 :root {
-    --textDark: rgba(38, 50, 56, 1);
-    --textMedium: rgba(38, 50, 56, 0.7);
-    --borderMedium: rgba(38, 50, 56, 0.2); 
-    --borderLight: rgba(38, 50, 56, 0.075);
-    --accent: #f4b500;
-    --textAccent: #e6ac00;
-    --light: rgba(38, 50, 56, 0.035);
+    --textDark: #1a1a1a;
+    --textMedium: rgba(26, 26, 26, 0.72);
+    --borderMedium: rgba(26, 26, 26, 0.15);
+    --borderLight: rgba(26, 26, 26, 0.06);
+    --accent: #c4a035;
+    --textAccent: #a8862a;
+    --light: #fafaf8;
+    --shadow: rgba(100, 80, 60, 0.08);
+    --shadowStrong: rgba(100, 80, 60, 0.15);
 }
 /*------------------------*/
 /* turn grayscale off

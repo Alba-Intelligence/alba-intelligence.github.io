@@ -1,7 +1,7 @@
 ---
 title: 'Training & Education'
 image: /uploads/illustrations/amico/Education.svg_nobg.png
-date: 2024-07-14
+date: 2023-09-15
 tags:
   - Training
   - Education

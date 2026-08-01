@@ -1,7 +1,7 @@
 body:before {
     content:"";
     position:absolute;
-    z-index:999;
+    z-index:var(--z-modal);
     top:var(--y);
     left:var(--x);
     right:0;

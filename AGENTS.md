@@ -6,7 +6,7 @@ Hugo static site (marketing site for Alba Intelligence). Pages are composed of "
 ## Key commands
 - Dev server: `hugo server` (or `hugo server -D` to include drafts)
 - Production build: `hugo --minify`
-- Nix shell: `nix develop` (provides hugo, imagemagick, npm); `.envrc` uses `use devenv`
+- Devenv shell: `devenv --shell=zsh shell` (provides hugo, imagemagick, javascript dev environment); `.envrc` uses `use devenv`
 
 ## Architecture
 - `config.yaml` — single Hugo config (no `hugo.toml`). English enabled, French disabled.
@@ -17,7 +17,7 @@ Hugo static site (marketing site for Alba Intelligence). Pages are composed of "
 - `_unused/` — legacy content/data, not used by the live site.
 
 ## CI / deployment
-- `.github/workflows/hugo.yml` — builds with Hugo **v0.128.0**, installs Dart Sass via snap, deploys to GitHub Pages on push to `main`.
+- `.github/workflows/hugo.yml` — builds with Hugo **v0.164.0**, installs Dart Sass via snap, deploys to GitHub Pages on push to `main`.
 - `HUGO_ENVIRONMENT=production` is set during CI builds.
 
 ## Gotchas

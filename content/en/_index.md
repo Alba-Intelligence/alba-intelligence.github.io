@@ -4,12 +4,6 @@ title: Home
 
 {{< brick_intro >}}
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 # Welcome to **Alba Intelligence**
 
 In Roman languages, **Alba** means **Dawn**. A new dawn for **Artificial Intelligence**.

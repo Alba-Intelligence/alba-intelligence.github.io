@@ -12,8 +12,8 @@ section.about .container .buttons {justify-content: center;}
 /* brick intro
 /*------------------------*/
 
-section.intro {text-align: center; background: white; position: relative;}
-section.intro img {margin: 3rem auto 0; width: 38rem;}
+section.intro {text-align: left; background: white; position: relative;}
+section.intro img {margin: 3rem auto 0; width: 100%; max-width: 24rem;}
 section.intro h1 + p {padding-top: 0;}
 
 /*------------------------*/
@@ -85,7 +85,7 @@ section.wide h1 + * {padding-top: 1.25rem;}
 section.map div.map {padding: 3rem 0; aspect-ratio: auto; border-radius: 0;}
 section.map .overlay {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 1; background: rgba(0,0,0,0);}
 section.map div.map > .container {display: flex; justify-content: flex-end;}
-section.map div.map > .container > div {background: white; padding: 2.5rem 3rem 2.5rem; border-radius: 1rem; position: relative; z-index: 2; min-width: 22rem; box-shadow: 0px 0px 1.5rem rgba(0,0,0,0.05);} 
+section.map div.map > .container > div {background: white; padding: 2.5rem 3rem 2.5rem; border-radius: 1rem; position: relative; z-index: 2; min-width: 22rem; box-shadow: 0px 0px 1.5rem var(--shadow);} 
 section.map div.map > .container > div .buttons {padding: 0;}
 @media (max-width: 55rem) {
     section.map div.map > .container {justify-content: center;}
@@ -176,11 +176,13 @@ ul.prices li div.box a.button {margin-top: 2.5rem;}
 
 section.posts .container.small {margin-bottom: 4rem; text-align: center;}
 section.posts .grid {grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); grid-gap: 2rem;}
+section.posts .grid .item {display: flex; flex-direction: column;}
 section.posts .grid .item .img {border-radius: 1rem; margin-bottom: 0.251rem; overflow: hidden;}
 section.posts .grid .item .img img {display: block;}
 section.posts .grid .item h3 {padding-top: 1rem;}
 section.posts .grid li.placeholder {display: block!important;}
-section.posts .grid .summary .button {position: relative; bottom: 0.8rem;}
+section.posts .grid .summary {margin-top: auto; padding-top: 1rem;}
+section.posts .grid .summary .button {position: static;}
 section.posts .filter {display: flex; justify-content: flex-end; align-items: center; gap: 0.75rem; margin: -2rem 0 1.25rem;}
 section.posts .filter .tags {display: flex; margin: 0; gap: 0.75rem;}
 section.posts .filter .tags li {list-style: none;}
@@ -227,7 +229,7 @@ section.small h1 {text-align: center;}
 section.docs {padding-top: 0!important; margin-top: 0;}
 .preheader + header + section.docs {margin-top: -3rem;}
 section.docs .container {display: flex; gap: 5rem;}
-section.docs .container .menu {border-right: 1px solid rgba(0,0,0,0.1); width: 20rem; max-width: 20rem; padding: 2rem 0 3.2rem;}
+section.docs .container .menu {border-right: 1px solid var(--borderMedium); width: 20rem; max-width: 20rem; padding: 2rem 0 3.2rem;}
 section.docs .container .content {min-width: 0; min-height: 0; padding: 3.2rem 0; flex-grow: 1;}
 section.docs .container .content > * {max-width: 45rem;}
 section.docs .container .content > p img[src$=".svg"] {width: 100%; max-width: 30rem; margin: 3rem 0;}
@@ -255,3 +257,7 @@ section.docs .container .menu ul.nestedmenu li.current > a {color: var(--textAcc
     section.docs .container .content {padding-bottom: 0;}
     section.docs .container .menu ul.nestedmenu {margin-top: 0.75rem;}
 }
+
+/* clickable elements */
+.postgrid .img, .servicesgrid .img, .industriesgrid .img {cursor: pointer;}
+section.map .overlay, p.map {cursor: pointer;}

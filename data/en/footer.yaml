@@ -5,10 +5,16 @@ menuitems:
     link:  /services/
 
   - title: Industries of Expertise
-    link:  /industries  /
+    link:  /industries/
 
   - title: The Team & Careers
     link:  /team/
+
+  - title: Privacy Policy
+    link:  /privacy-policy/
+
+  - title: Terms of Service
+    link:  /terms-of-service/
 
 socials:
   - title: Twitter

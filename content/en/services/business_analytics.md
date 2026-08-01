@@ -1,7 +1,7 @@
 ---
 title: 'Business Intelligence & Analytics'
 image: /uploads/illustrations/amico/Analytics.svg_nobg.png
-date: 2024-07-14
+date: 2023-11-22
 tags:
   - Business Intelligence
   - Analytics

@@ -1,5 +1,5 @@
 <img src="/form.php" style="position: absolute; opacity: 0; pointer-events: none;" />
-<form id="contactform" class="form" method="POST" action="{{ .action }}">
+<form id="contactform" class="form" method="POST" action="{{ .action }}" novalidate>
     {{- range .fields -}}
         {{- if eq .input_type `textarea` -}}
             <div>
@@ -28,3 +28,60 @@
         {{- end -}}
     {{- end -}}
 </form>
+<script>
+(function() {
+    const form = document.getElementById('contactform');
+    if (!form) return;
+    form.addEventListener('submit', function(e) {
+        let valid = true;
+        const fields = form.querySelectorAll('input[required], textarea[required]');
+        fields.forEach(function(field) {
+            const parent = field.closest('div');
+            let error = parent.querySelector('.form-error');
+            if (!field.value.trim()) {
+                valid = false;
+                if (!error) {
+                    error = document.createElement('div');
+                    error.className = 'form-error';
+                    error.style.cssText = 'color: #c0392b; font-size: 0.85rem; margin-top: 0.25rem;';
+                    parent.appendChild(error);
+                }
+                error.textContent = 'This field is required';
+            } else if (field.type === 'email' && field.value) {
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(field.value)) {
+                    valid = false;
+                    if (!error) {
+                        error = document.createElement('div');
+                        error.className = 'form-error';
+                        error.style.cssText = 'color: #c0392b; font-size: 0.85rem; margin-top: 0.25rem;';
+                        parent.appendChild(error);
+                    }
+                    error.textContent = 'Please enter a valid email address';
+                } else if (error) {
+                    error.remove();
+                }
+            } else if (error) {
+                error.remove();
+            }
+        });
+        if (!valid) {
+            e.preventDefault();
+        }
+    });
+    form.querySelectorAll('input, textarea').forEach(function(field) {
+        field.addEventListener('input', function() {
+            const parent = field.closest('div');
+            const error = parent.querySelector('.form-error');
+            if (error && field.value.trim()) {
+                if (field.type === 'email') {
+                    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (emailPattern.test(field.value)) error.remove();
+                } else {
+                    error.remove();
+                }
+            }
+        });
+    });
+})();
+</script>

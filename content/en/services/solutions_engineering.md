@@ -1,7 +1,7 @@
 ---
 title: 'Solutions Engineering'
 image: /uploads/illustrations/amico/Solutions.svg_nobg.png
-date: 2024-07-14
+date: 2024-05-30
 tags:
   - Solutions
   - Engineering

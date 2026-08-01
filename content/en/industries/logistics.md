@@ -1,7 +1,7 @@
 ---
 title: 'Logistics'
 image: /uploads/illustrations/amico/Logistics.svg_nobg.png
-date: 2024-07-14
+date: 2024-06-25
 tags:
   - Logistics
 ---

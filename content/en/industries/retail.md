@@ -1,7 +1,7 @@
 ---
 title: 'Retail & Consumer Goods'
 image: /uploads/illustrations/amico/Retail.svg_nobg.png
-date: 2024-07-14
+date: 2023-12-05
 tags:
   - Retail
 ---

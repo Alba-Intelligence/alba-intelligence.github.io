@@ -1,7 +1,7 @@
 ---
 title: 'Manufacturing'
 image: /uploads/illustrations/amico/Manufacturing.svg_nobg.png
-date: 2024-07-14
+date: 2024-01-09
 tags:
   - Manufacturing
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Insurance'
 image: /uploads/illustrations/amico/Insurance.svg_nobg.png
-date: 2024-07-14
+date: 2023-08-12
 tags:
   - Insurance
 ---

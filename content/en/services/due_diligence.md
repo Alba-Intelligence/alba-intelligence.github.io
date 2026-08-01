@@ -1,7 +1,7 @@
 ---
 title: 'Due Diligence'
 image: /uploads/illustrations/amico/Due_Diligence.svg_nobg.png
-date: 2024-07-14
+date: 2024-03-19
 tags:
   - Finance
   - Due Diligence

@@ -1,7 +1,7 @@
 ---
 title: 'Predictive Modelling'
 image: /uploads/illustrations/amico/Prediction.svg_nobg.png
-date: 2024-07-14
+date: 2024-02-08
 tags:
   - Predictive Modelling
   - Predictions
