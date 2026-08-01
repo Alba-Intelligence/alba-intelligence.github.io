@@ -54,7 +54,7 @@ header nav > ul > li > ul {
     position: absolute;
     box-shadow: 0px 0px 1.5rem var(--shadowStrong);
     margin-left: -1rem;
-    background: white;
+    background: var(--light);
     border-radius: 0.4rem;
     text-align: left;
     padding: 0.75rem 0 0.85rem;
