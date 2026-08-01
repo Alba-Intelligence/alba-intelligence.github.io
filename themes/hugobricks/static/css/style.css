@@ -1,5 +1,8 @@
 @import "fonts.css";
 @import "base.css";
+@import "components.css";
+@import "motion.css";
+@import "dark.css";
 @import "header-footer.css";
 @import "bricks.css";
 
