@@ -21,13 +21,15 @@ In Roman languages, **Alba** means **Dawn**. A new dawn for **Artificial Intelli
 
 ![](/uploads/illustrations/amico/Services.svg)
 
-We provide a range of professional and consulting services to support your growth and improve your RoE.
+We offer AI services for businesses.
 
+- [Generative AI](/services/genai/)
+- [Retrieval-Augmented Generation](/services/rag/)
 - [Solutions Engineering](/services/solutions_engineering/)
-- [Business Intelligence & Analytics](/services/business_analytics/)
-- [Predictive Modelling & Forecasts](/services/predictive_modelling/)
+- [Business Intelligence and Analytics](/services/business_analytics/)
+- [Predictive Modelling and Forecasts](/services/predictive_modelling/)
 - [Due Diligence](/services/due_diligence/)
-- [Training & Education](/services/training_education/)
+- [Training and Education](/services/training_education/)
 
 {{< /brick_image2 >}}
 
